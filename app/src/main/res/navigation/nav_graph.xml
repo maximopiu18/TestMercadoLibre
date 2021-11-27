@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.mercado.mercadolibretest.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+
+        <action
+            android:id="@+id/action_splashFragment_to_sitesFragment"
+            app:destination="@id/sitesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.mercado.mercadolibretest.ui.products.ProductsFragment"
+        android:label="fragment_products"
+        tools:layout="@layout/fragment_products">
+        <argument
+            android:name="idLocation"
+            app:argType="string" />
+        <argument
+            android:name="idCategory"
+            app:argType="string" />
+        <argument
+            android:name="tittle"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_productsFragment_to_detailsProductFragment"
+            app:destination="@id/detailsProductFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/sitesFragment"
+        android:name="com.mercado.mercadolibretest.ui.sites.SitesFragment"
+        android:label="fragment_sites"
+        tools:layout="@layout/fragment_sites">
+
+        <argument
+            android:name="siteId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_sitesFragment_to_categoriesFragment"
+            app:destination="@id/categoriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.mercado.mercadolibretest.ui.categories.CategoriesFragment"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories">
+
+        <argument
+            android:name="idSite"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_categoriesFragment_to_productsFragment"
+            app:destination="@id/productsFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/detailsProductFragment"
+        android:name="com.mercado.mercadolibretest.ui.details.DetailsProductFragment"
+        android:label="fragment_details_product"
+        tools:layout="@layout/fragment_details_product" >
+
+        <argument
+            android:name="integrantesItem"
+            app:argType="com.mercado.mercadolibretest.data.model.Results" />
+
+<!--        <argument
+            android:name="resultObject"
+            app:argType="com.mercado.mercadolibretest.data.model.Results"/>-->
+
+    </fragment>
+
+</navigation>

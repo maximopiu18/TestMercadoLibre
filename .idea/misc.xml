@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/drawable-v24/btn_mercado.xml" value="0.3572916666666667" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/drawable/btn_mercado.xml" value="0.3572916666666667" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/drawable/btn_mercado_blue.xml" value="0.3572916666666667" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/fragment_categories.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/fragment_details_product.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/fragment_products.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/fragment_region.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/fragment_search.xml" value="0.36822916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/fragment_sites.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/fragment_sities.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/fragment_splash.xml" value="0.36822916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/item_articles.xml" value="0.36822916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/item_categories.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/item_products.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/item_regions.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/item_sites.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/Maximopiu18/AndroidStudioProjects/MercadoLibreTest/app/src/main/res/layout/item_sities.xml" value="0.33697916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
